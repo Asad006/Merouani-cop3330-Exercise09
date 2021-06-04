@@ -16,7 +16,7 @@ public class App
         App app = new App();
 
         int area;
-        area = app.getRoomarea(scanner);
+        area = app.getRoomArea(scanner);
         processNeedGalons(area);
 
     }
@@ -29,7 +29,7 @@ public class App
         System.out.printf("You will need to purchase %d gallons of paint to cover %d square feet.",neededGallons,area);
     }
 
-    private int getRoomarea(Scanner scanner) {
+    private int getRoomArea(Scanner scanner) {
         int len, width;
 
         System.out.println(" Enter the length of the room");
